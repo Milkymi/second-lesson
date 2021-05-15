@@ -27,3 +27,6 @@ function Question(props) {
 function Answer(props) {
     return <span>{props.nameResult} {props.dataResult} {props.moneyResult}</span>
 }
+function Link(){
+    return <a href="#">(c)intocode</a>
+}
