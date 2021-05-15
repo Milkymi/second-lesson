@@ -15,3 +15,9 @@ ReactDOM.render(
         </tr>
     </table>,
     document.getElementById('root'));
+function Name() {
+    return <h1>Илон Маск</h1>
+}
+function ImgIlon() {
+    return <img src="ilon.jpeg" width= "500" />
+}
