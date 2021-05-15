@@ -21,3 +21,9 @@ function Name() {
 function ImgIlon() {
     return <img src="ilon.jpeg" width= "500" />
 }
+function Question(props) {
+    return <b> {props.name} {props.data}{props.money} </b>
+}
+function Answer(props) {
+    return <span>{props.nameResult} {props.dataResult} {props.moneyResult}</span>
+}
